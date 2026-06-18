@@ -1,2 +1,11 @@
 # Exploratory-Data-Analysis
-![Python - EDA] (https://github.com/Jack-Analyst5/Exploratory-Data-Analysis/blob/main/Python%20-%20EDA%20(1).ipynb)
+
+## Python - Exploratory Data analysis 
+This notebook demonstrates the use of Python, Pandas, Matplotlib, and Seaborn to perform Exploratory Data Analysis (EDA) on a retail sales dataset. The dataset contains transactional information from a retail business, including sales, invoices, products, stores, countries, quantities sold, and pricing details. The purpose of the analysis is to clean the data, understand its structure, identify trends, and generate insights through statistical analysis and visualizations.
+
+The analysis begins with data quality checks, where the Sales DataFrame is examined for missing values. Any missing (NaN) values found in the Sales and UnitPrice columns are replaced with zero to ensure consistency and prevent errors during analysis. Basic descriptive statistics are then calculated for the Quantity and UnitPrice columns, providing key measures such as count, mean, minimum, maximum, and standard deviation. This helps understand the overall distribution and variability of sales transactions.
+
+The notebook then uses data visualization techniques to explore patterns within the data. A scatter plot is created to examine the relationship between Quantity Sold and Sales Revenue, helping identify whether higher quantities lead to increased sales. A histogram is used to visualize the distribution of the Sales values and identify common sales ranges, outliers, or skewness in the data. A line chart is also developed to show sales trends over time, allowing users to observe seasonal patterns, peaks, and declines in business performance.
+In addition to visual analysis, the notebook performs grouping and aggregation operations using Pandas. Sales data is grouped by Product Category to calculate total sales for each category, enabling the identification of top-performing product groups. A pivot table is then created to summarize sales by Country and Product Category, providing a multi-dimensional view of sales performance across different markets and product segments.
+
+Overall, this notebook applies fundamental data analysis techniques to transform raw retail transaction data into meaningful business insights. It demonstrates how Python and Pandas can be used for data cleaning and summarization, while Matplotlib and Seaborn help visualize trends and patterns that support decision-making and business performance analysis.
